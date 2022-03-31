@@ -113,7 +113,6 @@ spec:
               cpu: 2000m
               memory: 4Gi
       nodeSelector: 
-        app.kubernetes.io/name: ingress-nginx
         kubernetes.io/os: linux
         taco-lma: enabled
       affinity: 
